@@ -38,36 +38,28 @@
             </div>
             
             <p>Click the button below and speak something...</p>
+            
             <p><button type="button" onclick="runSpeechRecognition()"><b>Speech to Text</b></button> &nbsp; 
             <span id="action"></span></p>
             <div id="output" class="hide"></div>
         </div>
 
         <div class="box" id="box">
-
             <div id="h2-2">
                 <h2>Text to Speech</h2>
             </div>
 
-            <p>
-                Type something and click on the speak button... 
-            </p>
+            <p>Type something and click on the speak button...</p> 
 
-		    <div>
-                <textarea name="" id="text-to-speech" placeholder="Enter text to speak..." cols="25" rows="5"></textarea>
-            </div>
+            <textarea name="" id="text-to-speech" placeholder="Enter text to speak..." cols="25" rows="5"></textarea>
 
-            <div>
-                <button type="button" onclick="textToAudio()"><b>Speak</b></button>
-            </div>
+            <button type="button" onclick="textToAudio()"><b>Speak</b></button>
         </div>
         
-
         <div class="footer">
             <p><b>Made by Ayush Shah :)</b><p>
         </div>
 
         <script language="JavaScript" type="text/JavaScript" src="/scripts/speech.js"></script>
-
 	</body>
 </html>
