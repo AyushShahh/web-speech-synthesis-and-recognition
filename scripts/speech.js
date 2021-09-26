@@ -34,12 +34,16 @@ function textToAudio() {
     let msg = document.getElementById("text-to-speech").value;
     
     let speech = new SpeechSynthesisUtterance();
+    var voices = speechSynthesis.getVoices();
     speech.lang = "en-US";
     
     speech.text = msg;
     speech.volume = 1;
     speech.rate = 1;
     speech.pitch = 1;
+    speech.voice = voices[2];
     
     window.speechSynthesis.speak(speech);
 }
+
+window.onload = textToAudio;
