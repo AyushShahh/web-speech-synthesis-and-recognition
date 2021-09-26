@@ -1,2 +1,2 @@
 # Speech <> Text
-Convert speech to text and vice versa in seconds.
+Convert Speech to Text and vice versa in seconds.
