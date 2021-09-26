@@ -1,0 +1,73 @@
+<!doctype html>
+	<head>
+        <meta name="theme-color" content="#000000">
+        <meta charset="UTF-8">
+        <meta name="description" content="Convert Speech to Text and vice versa in seconds!">
+
+        <!--Open graph tags-->
+        <meta property="og:title" content="Speech<>Text">
+        <meta property="og:description" content="Convert Speech to Text and vice versa in seconds!">
+        <meta property="og:image" content="https://speechtotextt.netlify.app/assets/favicons/android-chrome-512x512.png">
+        <meta property="og:url" content="https://speechtotextt.netlify.app/">
+        <meta property="og:site_name" content="Speech<>Text">
+        <meta property="og:type" content="website">
+
+        <!--Twitter-->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Speech<>Text">
+        <meta name="twitter:url" content="https://speechtotextt.netlify.app/">
+        <meta name="twitter:description" content="Convert Speech to Text and vice versa in seconds!">
+        <meta name="twitter:image" content="https://speechtotextt.netlify.app/assets/favicons/android-chrome-512x512.png">
+        <meta name="twitter:creator" content="@ayushshah__">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+        <title>Speech<>Text</title>
+
+        <link rel="manifest" href="site.webmanifest">
+        <script async src="https://cdn.jsdelivr.net/npm/pwacompat" crossorigin="anonymous"></script>
+    </head>
+    
+	<body>
+        <div class="box">
+            <div id="h2-1">
+                <h2>Speech to Text</h2>
+            </div>
+            
+            <p>Click the button below and speak something...</p>
+            <p><button type="button" onclick="runSpeechRecognition()"><b>Speech to Text</b></button> &nbsp; 
+            <span id="action"></span></p>
+            <div id="output" class="hide"></div>
+        </div>
+
+        <div class="box" id="box">
+
+            <div id="h2-2">
+                <h2>Text to Speech</h2>
+            </div>
+
+            <p>
+                Type something and click on the speak button... 
+            </p>
+
+		    <div>
+                <textarea name="" id="text-to-speech" placeholder="Enter text to speak..." cols="25" rows="5"></textarea>
+            </div>
+
+            <div>
+                <button type="button" onclick="textToAudio()"><b>Speak</b></button>
+            </div>
+        </div>
+        
+
+        <div class="footer">
+            <p><b>Made by Ayush Shah :)</b><p>
+        </div>
+
+        <script language="JavaScript" type="text/JavaScript" src="/scripts/speech.js"></script>
+
+	</body>
+</html>
