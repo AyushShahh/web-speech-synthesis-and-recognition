@@ -37,9 +37,15 @@
                 <h2>Speech to Text</h2>
             </div>
             
-            <p>Click the button below and speak something...</p>
+            <p>Select language, click the button below and speak something...</p>
             
-            <p><button type="button" onclick="runSpeechRecognition()"><b>Speech to Text</b></button> &nbsp; 
+            <div id="div_language">
+                <select id="select_language" onchange="updateCountry()">
+                </select>&nbsp;&nbsp; <select id="select_dialect">
+                </select>
+            </div>
+            
+            <p><button onclick="runSpeechRecognition()"><b>Speech to Text</b></button> &nbsp;
             <span id="action"></span></p>
             <div id="output" class="hide"></div>
         </div>
@@ -49,11 +55,14 @@
                 <h2>Text to Speech</h2>
             </div>
 
-            <p>Type something and click on the speak button...</p> 
+            <p>Type something, select voice and click on the speak button...</p>
+
+            <select id="voice"></select>
 
             <textarea name="" id="text-to-speech" placeholder="Enter text to speak..." cols="25" rows="5"></textarea>
 
-            <button type="button" onclick="textToAudio()"><b>Speak</b></button>
+            <button id="speak"><b>Speak</b></button>&nbsp;
+            <button id="stop"><b>Stop</b></button>
         </div>
         
         <div class="footer">
