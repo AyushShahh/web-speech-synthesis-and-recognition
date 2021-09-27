@@ -4,6 +4,24 @@ body {
     align-content: center;
 }
 
+select{
+    margin-bottom: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    width: 140px;
+    padding: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://img.icons8.com/material-rounded/24/000000/down-squared.png) 101% / 15% no-repeat #eee;
+}
+
+#voice{
+    width:280px;
+    margin-bottom: 15px;
+    background: url(https://img.icons8.com/material-rounded/24/000000/down-squared.png) 100.5% / 8.5% no-repeat #eee;
+}
+
 .box {
     padding: 20px;
     text-align: center;
@@ -46,7 +64,6 @@ button:focus{
     padding:10px;
     width: 50%;
     margin-left: 25%;
-    margin-right: 25%;
     margin-top:20px;
     line-height:30px;
     border-radius: 15px;
@@ -106,7 +123,7 @@ textarea {
 
 @media (max-width: 991.98px) {
     .box {
-    font-size: 31px;
+    font-size: 30px;
     margin: 40px auto 0;
     padding: 25px;
     background: rgba(43, 42, 42, 0.37);
@@ -121,8 +138,7 @@ textarea {
     #output{
         padding: 20px;
         width: 65%;
-        margin-right: 17.5%;
-        margin-left: 17.5%;
+        margin-left: 15.5%;
         margin-top:30px;
         line-height:40px;
     }
@@ -131,8 +147,7 @@ textarea {
         padding:20px;
         width: 70%;
         font-size: 26px;
-        margin-right: 15%;
-        margin-left: 15%;
+        margin-left: 13%;
         margin-top:6px;
         margin-bottom: 22px;
     }
@@ -140,80 +155,15 @@ textarea {
     .footer{
         font-size: 33px;
     }
-}
 
-@media (max-width: 767.98px) {
-    .box{
-        font-size: 36px;
-        margin: 50px auto 0;
-        padding: 30px;
-        background: rgba(43, 42, 42, 0.37);
+    select{
+        font-size: 25px;
+        margin-bottom: 20px;
+        width: 235px;
     }
 
-    button{
-        padding: 29px;
-        font-size: 31px;
-        border-radius: 10px;
-    }
-
-    #output{
-        padding: 30px;
-        width: 70%;
-        margin-right: 11.5%;
-        margin-left: 11.5%;
-        margin-top:40px;
-        line-height:50px;
-    }
-
-    textarea{
-        padding:30px;
-        width: 75%;
-        font-size:31px;
-        margin-right: 10%;
-        margin-left: 10%;
-        margin-top:11px;
-        margin-bottom: 32px;
-    }
-
-    .footer{
-        font-size: 43px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .box{
-        font-size: 41px;
-        margin: 60px auto 0;
-        padding: 35px;
-        background: rgba(43, 42, 42, 0.37);
-    }
-
-    button{
-        padding: 34px;
-        font-size: 36px;
-        border-radius: 10px;
-    }
-
-    #output{
-        padding: 40px;
-        width: 75%;
-        margin-left: 7.5%;
-        margin-right: 7.5%;
-        margin-top:50px;
-        line-height:60px;
-    }
-
-    textarea{
-        padding:40px;
-        width: 80%;
-        margin-left: 6%;
-        margin-right: 6%;
-        margin-top:16px;
-        font-size:36px;
-        margin-bottom: 42px;
-    }
-
-    .footer{
-        font-size: 53px;
+    #voice{
+        width: 350px;
+        background: url(https://img.icons8.com/material-rounded/24/000000/down-squared.png) 100.75% / 11% no-repeat #eee;
     }
 }
