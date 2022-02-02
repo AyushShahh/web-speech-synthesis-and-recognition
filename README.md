@@ -28,7 +28,7 @@ Check the live website: [https://speechtotextt.netlify.app](https://speechtotext
 ## Local Devlopment
 Clone this repository and you will be able to run this on your localhost
 ```
-git clone https://github.com/AyushShahh/steganocet.git
+git clone https://github.com/AyushShahh/web-speech-synthesis-and-recognition.git
 ```
 
 ## API used
