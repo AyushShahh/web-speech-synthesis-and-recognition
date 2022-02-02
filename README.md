@@ -25,7 +25,7 @@ Check the live website: [https://speechtotextt.netlify.app](https://speechtotext
 - Type anything you want to convert to speech
 - Press speak button and turn on your volume
 
-## Local Devlopment
+## Local Development
 Clone this repository and you will be able to run this on your localhost
 ```
 git clone https://github.com/AyushShahh/web-speech-synthesis-and-recognition.git
@@ -33,7 +33,7 @@ git clone https://github.com/AyushShahh/web-speech-synthesis-and-recognition.git
 
 ## API used
 Javascript Web Speech API<br>
-[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API#browser_compatibility), [W3C Documentation](https://wicg.github.io/speech-api/) <br>
+[MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API), [W3C Documentation](https://wicg.github.io/speech-api/) <br>
 
 ## Supported browsers
 This API is native to chromium browsers.
